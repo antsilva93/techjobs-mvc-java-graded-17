@@ -28,7 +28,7 @@ public class ListController {
         columnChoices.put("positionType", "Position Type");
         columnChoices.put("coreCompetency", "Skill");
 
-        tableChoices.put("all", JobData.findAll()); //added key/value pair via jobData for TODO 2
+        //tableChoices.put("all", JobData.findAll()); //added key/value pair via jobData for TODO 2 - this doesn't work
         tableChoices.put("employer", JobData.getAllEmployers());
         tableChoices.put("location", JobData.getAllLocations());
         tableChoices.put("positionType", JobData.getAllPositionTypes());
